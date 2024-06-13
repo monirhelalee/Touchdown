@@ -16,6 +16,7 @@
 		ECE125762C1B5C02006146EA /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = ECE125722C1B5C02006146EA /* category.json */; };
 		ECE125772C1B5C02006146EA /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = ECE125732C1B5C02006146EA /* product.json */; };
 		ECE125822C1B5E76006146EA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE125812C1B5E76006146EA /* Constant.swift */; };
+		ECE125842C1B5FD3006146EA /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE125832C1B5FD3006146EA /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ECE125732C1B5C02006146EA /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		ECE125792C1B5CC8006146EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ECE125812C1B5E76006146EA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		ECE125832C1B5FD3006146EA /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		ECE1257C2C1B5DF5006146EA /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				ECE125832C1B5FD3006146EA /* FooterView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE125652C1B5886006146EA /* ContentView.swift in Sources */,
+				ECE125842C1B5FD3006146EA /* FooterView.swift in Sources */,
 				ECE125632C1B5886006146EA /* TouchdownApp.swift in Sources */,
 				ECE125822C1B5E76006146EA /* Constant.swift in Sources */,
 			);
